@@ -43,8 +43,8 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
  ╚════ ❀.•🎀•.❀ ════╝
 
 🔹 𝗣𝗥𝗘𝗙𝗜𝗫: [ ${prefix} ]
-🔹 𝗢𝗪𝗡𝗘𝗥: 𝑻𝒂𝒍𝒉𝒂 𝑷𝒂𝒕𝒉𝒂𝒏
-🔹 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗙𝗕: https://www.facebook.com/share/193GypVyJQ/
+🔹 𝗢𝗪𝗡𝗘𝗥: ⎯꯭̽↱𓆩 ⃪꯭༐༐ 𝐒͢͢𝐚𝐧֟፝͜͡𝐚𝐧 𝐊᪵𝐡𝐚֟፝͜͡𝐧ꭗ'⎯꯭̽★ı̄̈ı̄̈
+🔹 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗙𝗕: https://www.facebook.com/S9N9NKH9N/
 
 💙 𝑻𝒉𝒂𝒏𝒌 𝒚𝒐𝒖 𝒇𝒐𝒓 𝒖𝒔𝒊𝒏𝒈 𝒎𝒚 𝒃𝒐𝒕!
 🕊️ 𝑺𝒕𝒂𝒚 𝒄𝒐𝒐𝒍 𝒂𝒏𝒅 𝒔𝒑𝒓𝒆𝒂𝒅 𝒍𝒐𝒗𝒆 💫`
@@ -64,8 +64,8 @@ module.exports.run = async ({ event, api, Threads }) => {
  ╚════ ❀.•🎀•.❀ ════╝
 
 🔹 𝗣𝗥𝗘𝗙𝗜𝗫: [ ${prefix} ]
-🔹 𝗢𝗪𝗡𝗘𝗥: 𝑻𝒂𝒍𝒉𝒂 𝑷𝒂𝒕𝒉𝒂𝒏
-🔹 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗙𝗕: https://www.facebook.com/share/193GypVyJQ/
+🔹 𝗢𝗪𝗡𝗘𝗥: ⎯꯭̽↱𓆩 ⃪꯭༐༐ 𝐒͢͢𝐚𝐧֟፝͜͡𝐚𝐧 𝐊᪵𝐡𝐚֟፝͜͡𝐧ꭗ'⎯꯭̽★ı̄̈ı̄̈
+🔹 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗙𝗕: https://www.facebook.com/S9N9NKH9N/
 
 💙 𝑻𝒉𝒂𝒏𝒌 𝒚𝒐𝒖 𝒇𝒐𝒓 𝒖𝒔𝒊𝒏𝒈 𝒎𝒚 𝒃𝒐𝒕!
 🕊️ 𝑺𝒕𝒂𝒚 𝒄𝒐𝒐𝒍 𝒂𝒏𝒅 𝒔𝒑𝒓𝒆𝒂𝒅 𝒍𝒐𝒗𝒆 💫`, threadID
