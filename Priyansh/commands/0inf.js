@@ -24,7 +24,7 @@ module.exports.run = async function({ api, event, args, client, Users, Threads, 
   const moment = require("moment-timezone");
   var juswa = moment.tz("Asia/Lahore").format("『D/MM/YYYY』 【HH:mm:ss】");
 
-  var link = ["https://imgur.com/bVfAEoj.jpg"];
+  var link = ["https://i.postimg.cc/bwhd9Rh4/20250801-154226.jpg"];
 
   var callback = () => api.sendMessage({
     body:
