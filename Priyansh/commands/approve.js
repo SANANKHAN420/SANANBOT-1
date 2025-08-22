@@ -81,7 +81,7 @@ module.exports.run = async ({ event, api, args, Threads }) => {
           `📌 ${prefix}approve pending / p → Show pending groups\n` +
           `📌 ${prefix}approve del / d <ID> → Remove group approval\n` +
           `📌 ${prefix}approve <ID> → Approve a group\n\n` +
-          `👑 𝗢𝗪𝗡𝗘𝗥: 𝗧𝗔𝗟𝗛𝗔 𝗣𝗔𝗧𝗛𝗔𝗡`,
+          `👑 𝗢𝗪𝗡𝗘𝗥: 𝗦𝗔𝗡𝗔𝗡 𝗞𝗛𝗔𝗡`,
           threadID, messageID
         );
       }
@@ -111,7 +111,7 @@ module.exports.run = async ({ event, api, args, Threads }) => {
           body:
             `╔══【🌟 𝗕𝗢𝗧 𝗔𝗣𝗣𝗥𝗢𝗩𝗘𝗗 🌟】══╗\n\n` +
             `🎀 𝗕𝗢𝗧 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 🎀\n\n` +
-            `✨ Group has been approved by 👑 𝑻𝒂𝒍𝒉𝒂 𝑷𝒂𝒕𝒉𝒂𝒏 ✨\n` +
+            `✨ Group has been approved by 👑 𝐒𝐀𝐍𝐀𝐍 𝐊𝐇𝐀𝐍 ✨\n` +
             `────────────────────────────\n` +
             `🔰 Use "*help" to see available commands\n\n` +
             `📚 Examples:\n` +
@@ -120,9 +120,9 @@ module.exports.run = async ({ event, api, args, Threads }) => {
             `│ 🧾 *info – Bot info\n` +
             `│ 🛠️ *help – Command list\n` +
             `────────────────────────────\n\n` +
-            `🌐 Facebook: https://www.facebook.com/share/193GypVyJQ/\n` +
-            `📞 Contact Owner: 𝗧𝗔𝗟𝗛𝗔 𝗣𝗔𝗧𝗛𝗔𝗡\n` +
-            `💌 Thanks for using 𝗠𝗼𝘁𝗼 𝗕𝗼𝘁!\n\n` +
+            `🌐 Facebook: https://www.facebook.com/S9N9NKH9N/\n` +
+            `📞 Contact Owner: 𝐒𝐀𝐍𝐀𝐍 𝐊𝐇𝐀𝐍\n` +
+            `💌 Thanks for using 𝐒𝐚𝐍𝐚𝐍 𝐁𝐨𝐓!\n\n` +
             `╚═════【❤️】═════╝`,
           attachment: fs.existsSync(gifPath)
             ? fs.createReadStream(gifPath)
