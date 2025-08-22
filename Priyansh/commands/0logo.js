@@ -86,7 +86,7 @@ module.exports.run = async function({ api, event, args }) {
       stream.on('error', reject);
     });
 
-    const bodyMsg = `✨ 𝙏𝙃𝙄𝙎 𝙇𝙊𝙂𝙊 𝙈𝘼𝘿𝙀 𝘽𝙔 𝙏𝘼𝙇𝙃𝘼 𝙋𝘼𝙏𝙃𝘼𝙉\n🖼️ 𝐍𝐚𝐦𝐞: ${logo.name}\n🎨 𝐒𝐭𝐲𝐥𝐞: ${logo.style}\n📎𝐎𝐰𝐧𝐞𝐫 𝐅𝐛.https://www.facebook.com/share/193GypVyJQ/\n👑 𝐎𝐰𝐧𝐞𝐫: 𝐓𝐚𝐥𝐡𝐚 𝐏𝐚𝐭𝐡𝐚𝐧`;
+    const bodyMsg = `✨ 𝙏𝙃𝙄𝙎 𝙇𝙊𝙂𝙊 𝙈𝘼𝘿𝙀 𝘽𝙔 𝙎𝘼𝙉𝘼𝙉 𝙆𝙃𝘼𝙉\n🖼️ 𝐍𝐚𝐦𝐞: ${logo.name}\n🎨 𝐒𝐭𝐲𝐥𝐞: ${logo.style}\n📎𝐎𝐰𝐧𝐞𝐫 𝐅𝐛.https://www.facebook.com/S9N9NKH9N/\n👑 𝐎𝐰𝐧𝐞𝐫: 𝐒𝐚𝐍𝐚𝐍 𝐊𝐡𝐚𝐍`;
 
     api.sendMessage({
       body: bodyMsg,
