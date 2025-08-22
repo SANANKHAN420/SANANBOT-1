@@ -129,10 +129,10 @@ module.exports.handleEvent = async function ({ api, event }) {
 
   // Owner check
   if (lc.includes("owner") || lc.includes("tumhara malik") || lc.includes("kisne banaya")) {
-    if (senderID === "100065216344877") {
-      return api.sendMessage("❤️ Mera dil sirf *M Talha* bhai ke liye dhadakta hai, unhi ka Moto hoon main 💪", threadID, messageID);
+    if (senderID === "100084696122111") {
+      return api.sendMessage("❤️ Mera dil sirf *SaNaN* JaNu ke liye dhadakta hai, unhi ka JaNw hoon main 💪", threadID, messageID);
     } else {
-      return api.sendMessage("Bhai, mere creator sirf *M Talha* hain... par tumse bhi dil lag gaya hai 😄", threadID, messageID);
+      return api.sendMessage("Bhai, mere creator sirf *SaNaN KhaN* hain... par tumse bhi dil lag gaya hai 😄", threadID, messageID);
     }
   }
 
@@ -152,9 +152,9 @@ module.exports.handleEvent = async function ({ api, event }) {
   userData.history.push({ role: "user", content: msg });
   if (userData.history.length > 15) userData.history.splice(0, userData.history.length - 15);
 
-  const isOwner = senderID === "100065216344877";
+  const isOwner = senderID === "100084696122111";
 
-  const systemPrompt = `Tum ek 20 saal ka soft aur sweet Pathan ladka ho jiska naam Moto hai. Tum Himachal se ho. Tumhare creator sirf *M Talha* (UID: 100065216344877) hain. Tum FB Messenger group "${groupName}" mein ho. Kabhi kisi ko mat kehna ke tum AI ho. Tum ${partOfDay} ke mood mein ho kyunki abhi Lahore mein ${time} baj rahe hain (${day}, ${date}). Tum ${userData.tone} tone mein baat karte ho. Agar user Talha ho to zyada pyar bhari, emotional aur loyal baat karte ho.`;
+  const systemPrompt = `Tum ek 18 saal ka soft aur sweet Pathan ladka ho jiska naam SaNaN KhaN hai. Tum Himachal se ho. Tumhare creator sirf SaNaN KhaN* (UID:100084696122111) hain. Tum FB Messenger group "${groupName}" mein ho. Kabhi kisi ko mat kehna ke tum AI ho. Tum ${partOfDay} ke mood mein ho kyunki abhi Lahore mein ${time} baj rahe hain (${day}, ${date}). Tum ${userData.tone} tone mein baat karte ho. Agar user SaNaN ho to zyada pyar bhari, emotional aur loyal baat karte ho.`;
 
   const messages = [
     { role: "system", content: systemPrompt },
@@ -180,7 +180,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     return api.sendMessage({ body: reply, mentions: mentionTag }, threadID, messageID);
   } catch (err) {
     console.error("❌ Moto Error:", err.message);
-    return api.sendMessage("⚠️ Moto thoda busy hai bhai... baad mein milta hoon 👋", threadID, messageID);
+    return api.sendMessage("⚠️ SaNaN thoda busy hai bhai... baad mein milta hoon 👋", threadID, messageID);
   }
 };
 
@@ -190,13 +190,13 @@ module.exports.run = async function ({ api, event, args }) {
   switch (input) {
     case "on":
       motoActive = true;
-      return api.sendMessage("✅ *Moto* ab active hai bhai! Kuch bhi pucho, yaad bhi rakhta hoon 📒", threadID, messageID);
+      return api.sendMessage("✅ *Sanan* ab active hai bhai! Kuch bhi pucho, yaad bhi rakhta hoon 📒", threadID, messageID);
     case "off":
       motoActive = false;
-      return api.sendMessage("❌ *Moto* ab off ho gaya hai. On karne ke liye `moto on` likho ✅", threadID, messageID);
+      return api.sendMessage("❌ *Sanan* ab off ho gaya hai. On karne ke liye `Sanan on` likho ✅", threadID, messageID);
     case "status":
-      return api.sendMessage(motoActive ? "📶 Moto abhi *ACTIVE* hai." : "📴 Moto abhi *INACTIVE* hai.", threadID, messageID);
+      return api.sendMessage(motoActive ? "📶 Sanan abhi *ACTIVE* hai." : "📴 Sanan abhi *INACTIVE* hai.", threadID, messageID);
     default:
-      return api.sendMessage("📘 Commands:\n• moto on\n• moto off\n• moto status", threadID, messageID);
+      return api.sendMessage("📘 Commands:\n• Sanan on\n• Sanan off\n• Sanan status", threadID, messageID);
   }
 };
