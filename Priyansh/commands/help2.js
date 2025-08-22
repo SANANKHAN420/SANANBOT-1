@@ -75,7 +75,7 @@ module.exports. run = function({ api, event, args, getText }) {
 
     const siu = `𝗧𝗼𝘁𝗮𝗹 𝗖𝗺𝗻𝗱𝘀`;
 
- const text = `\n𝐏𝐀𝐆𝐄 (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n𝗠𝗮𝗱𝗲 𝗕𝘆 + ★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀\n          ༄𒁍≛⃝𝙏𝙖𝙡𝙃𝙖 `;
+ const text = `\n𝐏𝐀𝐆𝐄 (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n𝗠𝗮𝗱𝗲 𝗕𝘆 + ★᭄𝗖𝗿𝗲𝗱𝗶𝘁'𝘀\n         ⎯꯭̽↱𓆩 ⃪꯭༐༐ 𝐒͢͢𝐚𝐧֟፝͜͡𝐚𝐧 𝐊᪵𝐡𝐚֟፝͜͡𝐧ꭗ'⎯꯭̽★ı̄̈ı̄̈ `;
 
     return api.sendMessage(siu + "\n\n" + msg  + text, threadID, async (error, info) => {
       if (autoUnsend) {
