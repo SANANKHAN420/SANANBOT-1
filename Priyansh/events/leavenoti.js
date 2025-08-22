@@ -20,8 +20,8 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   const { threadID } = event;
   const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
   const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
-  const type = (event.author == event.logMessageData.leftParticipantFbId) ? " " : "༺༻ᗪᗩᖴᗩ ᕼO GYᗩ༺༻\n✶⊷⊶⊷❀♡❀⊷⊷⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀  ཫ༄𒁍☆||  ⋆⃝❥͜͡Tʌɭʜʌ Pʌtʜʌŋ❥||ㅎ";
-  (typeof data.customLeave == "undefined") ? msg = "༺༻ᗪᗩᖴᗩ ᕼO GYᗩ༺༻\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n ★{name}\n✶⊷⊶⊷❀♡❀⊶⊷⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀☆||  ⋆⃝❥͜͡Tʌɭʜʌ Pʌtʜʌŋ❥||ㅎ {type}" : msg = data.customLeave;
+  const type = (event.author == event.logMessageData.leftParticipantFbId) ? " " : "༺༻ᗪᗩᖴᗩ ᕼO GYᗩ༺༻\n✶⊷⊶⊷❀♡❀⊷⊷⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀  ཫ༄𒁍☆||  ⎯꯭̽↱𓆩 ⃪꯭༐༐ 𝐒͢͢𝐚𝐧֟፝͜͡𝐚𝐧 𝐊᪵𝐡𝐚֟፝͜͡𝐧ꭗ'⎯꯭̽★ı̄̈ı̄̈||ㅎ";
+  (typeof data.customLeave == "undefined") ? msg = "༺༻ᗪᗩᖴᗩ ᕼO GYᗩ༺༻\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n ★{name}\n✶⊷⊶⊷❀♡❀⊶⊷⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀☆||  ⎯꯭̽↱𓆩 ⃪꯭༐༐ 𝐒͢͢𝐚𝐧֟፝͜͡𝐚𝐧 𝐊᪵𝐡𝐚֟፝͜͡𝐧ꭗ'⎯꯭̽★ı̄̈ı̄̈||ㅎ {type}" : msg = data.customLeave;
   msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type);
 
   var link = [  
