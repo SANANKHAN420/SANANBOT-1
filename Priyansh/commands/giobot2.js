@@ -4,7 +4,7 @@ module.exports.config = {
   name: "giobot2",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "Talha ✨",
+  credits: "SaNaN ✨",
   description: "Auto reply on Zidi with Rabi poetry",
   commandCategory: "fun",
   usages: "auto",
@@ -72,12 +72,12 @@ module.exports.handleEvent = async ({ event, api }) => {
   const image_url = ""; // Replace this image if needed
 
   const styledBody = `
-╭─❍🌸 𝑍𝐼𝐷𝐼 𝑅𝐸𝑆𝑃𝑂𝑁𝑆 🌸❍─╮
+╭─❍🌸 𝑹𝑬𝑺𝑷𝑶𝑵𝑺 🌸❍─╮
 
     ${randomLine}
 
 
-╰──────❍ 𝐓𝐀𝐋𝐇𝐀 𝐁𝐎𝐓 ❍──────╯
+╰──────❍ 𝐒𝐀𝐍𝐀𝐍 𝐁𝐎𝐓 ❍──────╯
 `;
 
   return api.sendMessage(styledBody, threadID, messageID);
