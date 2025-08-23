@@ -30,7 +30,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     "Suno Jawn DiL کرتا ha ہر Waqt تمہاری Chumiya لیتا Raho😌🙈",
     "Khud ko single keh kr Apne khufiya janu ka janaza na nikala kro.😀🤞😓",
     "چــــــــلا جـــــــا بھــــــــوســـــــــڑی کــــــــے )) 🙂✨♥️",
-    "Hi mujY M Talha ne baNaYa hY 🙂",
+    "Hi mujY SaNaN KhaN ne baNaYa hY 🙂",
     "Kᴀʜᴀɴɪ Sᴜɴᴏ !😔 Zᴜʙᴀɴɪ sᴜɴᴏ !😔Mᴜᴊʜʏ Bᴜᴋʜᴀʀ Hᴏᴡᴀ Tʜᴀ'ᴡ 😔 )Eᴋ sᴏ Cʜᴀᴀʀ Hᴏᴡᴀ Tʜᴀ'ᴡ 🥺💔:)",
     "- 𝙩𝙪𝙢 𝙢𝙚𝙧𝙖 𝙙𝙞𝙡 𝙩𝙤 𝘾𝙝𝙪𝙧𝙖 𝙣𝙝𝙞 𝙥𝙖𝙮 𝙠𝙞𝙖 𝙛𝙖𝙞𝙙𝙖 𝙩𝙢𝙝𝙖𝙧𝙞 𝘾𝙝𝙤𝙤𝙧 𝙟𝙚𝙨𝙞 𝙨𝙝𝙠𝙖𝙡 𝙠𝙖!! 🙂",
     "𝐄𝐤 𝐛𝐚𝐚𝐫 𝐈 𝐋𝐨𝐯𝐞 𝐘𝐎𝐲 𝐁𝐨𝐥 𝐃𝐨 𝐍𝐚 𝐌𝐚𝐫 𝐓𝐡𝐨𝐫𝐢 𝐉𝐚𝐮𝐠𝐢 🙄😕)( 👑🍒",
@@ -293,7 +293,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   };
   
   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "admin")) {
-    return api.sendMessage("My Owner AestHetic bOy M Talha🖤", threadID);
+    return api.sendMessage("My Owner AestHetic bOy SaNaN KhaN🖤", threadID);
   };
   
   if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simi")) {
@@ -537,7 +537,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   };
   
   if ((event.body.toLowerCase() == "😡") || (event.body.toLowerCase() == "😡😡")) {
-    return api.sendMessage("𝐓𝐚𝐥𝐇𝐚 𝐍𝐲 𝐑𝐨𝐊𝐚 𝐇𝐚𝐢 𝐰𝐚𝐑𝐧𝐚 𝐓𝐚𝐫𝐢 𝐈𝐬 𝐆𝐮𝐒𝐬𝐲 𝐤𝐢 𝐁𝐡𝐢.........𝐬𝐦𝐚𝐣 𝐉𝐚 😁😝😂👊", threadID);
+    return api.sendMessage("𝐒𝐚𝐍𝐚𝐍 𝐍𝐲 𝐑𝐨𝐊𝐚 𝐇𝐚𝐢 𝐰𝐚𝐑𝐧𝐚 𝐓𝐚𝐫𝐢 𝐈𝐬 𝐆𝐮𝐒𝐬𝐲 𝐤𝐢 𝐁𝐡𝐢.........𝐬𝐦𝐚𝐣 𝐉𝐚 😁😝😂👊", threadID);
   };
   
   if ((event.body.toLowerCase() == "🤬") || (event.body.toLowerCase() == "🤬🤬")) {
@@ -746,6 +746,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
   if ((event.body.toLowerCase() == "does the bot love me") || (event.body.toLowerCase() == "does the bot love me")) {
     return api.sendMessage("Yes <3", threadID);
+  };
+
+    if ((event.body.toLowerCase() == "Sanan") || (event.body.toLowerCase() == "does the bot love me")) {
+    return api.sendMessage("𝐊𝐢𝐚 𝐒𝐚𝐍𝐚𝐍 𝐒𝐚𝐍𝐚𝐍 𝐊𝐚𝐫𝐓𝐞 𝐇𝐮 𝐏𝐲𝐚𝐫 𝐓𝐮 𝐍𝐢𝐢 𝐇𝐮𝐰𝐚 𝐌𝐞𝐑𝐞 𝐉𝐚𝐍𝐰 𝐒𝐞 😐♥️ <3", threadID);
   };
   
   if ((event.body.toLowerCase() == "does the bot have a brand") || (event.body.toLowerCase() == "does the bot fall")) {
