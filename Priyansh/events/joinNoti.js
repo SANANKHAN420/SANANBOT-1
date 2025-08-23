@@ -64,7 +64,7 @@ module.exports.run = async function ({ api, event }) {
 						memLength.sort((a, b) => a - b);
 
 						let msg = (typeof threadData.customJoin == "undefined") ?
-							"السلام عليكم\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶ \n{uName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n𝐖𝐞𝐋𝐋𝐂𝐎𝐌𝐄 𝐓𝐨\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n {threadName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\nʏᴏᴜ'ʀᴇ ᴛʜᴇ {soThanhVien}th ᴍᴇᴍʙᴇʀ ᴏɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟᴇᴀsᴇ ᴇɴᴊᴏʏ\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀  ཫ༄𒁍☆||  ⋆⃝❥͜͡Tʌɭʜʌ Pʌtʜʌŋ❥||ㅎ"
+							"السلام عليكم\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶ \n{uName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n𝐖𝐞𝐋𝐋𝐂𝐎𝐌𝐄 𝐓𝐨\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n {threadName}\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\nʏᴏᴜ'ʀᴇ ᴛʜᴇ {soThanhVien}th ᴍᴇᴍʙᴇʀ ᴏɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴘʟᴇᴀsᴇ ᴇɴᴊᴏʏ\n✶⊷⊶⊷❀♡❀⊷⊶⊷✶\n*★᭄𝗖𝗿𝗲𝗱𝗶𝘁𝘀  ཫ༄𒁍☆|| ⎯꯭̽↱𓆩 ⃪꯭༐༐ 𝐒͢͢𝐚𝐧֟፝͜͡𝐚𝐧 𝐊᪵𝐡𝐚֟፝͜͡𝐧ꭗ'⎯꯭̽★ı̄̈ı̄̈||ㅎ"
 							: threadData.customJoin;
 
 						msg = msg
