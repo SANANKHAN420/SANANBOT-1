@@ -26,7 +26,7 @@ module.exports.onLoad = () => {
   if (!fs.existsSync(dataPath)) fs.writeFileSync(dataPath, JSON.stringify([]));
   if (!fs.existsSync(dataPending)) fs.writeFileSync(dataPending, JSON.stringify([]));
 
-  const sourceGif = path.join(__dirname, "assets", "talha_approval.gif");
+  const sourceGif = path.join(__dirname, "assets", "Sanan_approval.gif");
   if (!fs.existsSync(gifPath) && fs.existsSync(sourceGif)) {
     fs.copyFileSync(sourceGif, gifPath);
   }
