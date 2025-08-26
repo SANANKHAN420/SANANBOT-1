@@ -2,7 +2,7 @@ module.exports.config = {
   name: "approve",
   version: "1.0.2",
   hasPermssion: 2,
-  credits: "Fixed by Talha ✨",
+  credits: "Fixed by SaNaN ✨",
   description: "Approve or manage group access to the bot",
   commandCategory: "Admin",
   cooldowns: 5
