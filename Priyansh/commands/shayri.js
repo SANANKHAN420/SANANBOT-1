@@ -140,7 +140,7 @@ module.exports.run = async function({ api, event, args }) {
                             ` ✨ ${shayriText} ✨\n` +
                             `╚═══════•⊰✿⊱•═══════╝\n\n` +
                             `📌 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲: ${event.senderName}\n` +
-                            `👑 𝐎𝐰𝐧𝐞𝐫: 𝐓𝐀𝐋𝐇𝐀 𝐏𝐀𝐓𝐇𝐀𝐍`;
+                            `👑 𝐎𝐰𝐧𝐞𝐫: 𝐒𝐀𝐍𝐀𝐍 𝐊𝐇𝐀𝐍`;
 
         // Send message with attachment
         api.sendMessage({
@@ -157,7 +157,7 @@ module.exports.run = async function({ api, event, args }) {
             ` ✨ ${fallbackShayri} ✨\n` +
             `╚═══════•⊰✿⊱•═══════╝\n\n` +
             `📌 Error loading image\n` +
-            `👑 𝐎𝐰𝐧𝐞𝐫: 𝐓𝐀𝐋𝐇𝐀 𝐏𝐀𝐓𝐇𝐀𝐍`,
+            `👑 𝐎𝐰𝐧𝐞𝐫: 𝐒𝐀𝐍𝐀𝐍 𝐊𝐇𝐀𝐍`,
             event.threadID,
             event.messageID
         );
