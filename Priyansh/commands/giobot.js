@@ -292,8 +292,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     return api.sendMessage("️🙈🙉🙊", threadID);
   };
   
-  if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "admin")) {
-    return api.sendMessage("My Owner AestHetic bOy SaNaN KhaN🖤", threadID);
+  if ((event.body.toLowerCase() == "Admin") || (event.body.toLowerCase() == "admin")) {
+    return api.sendMessage("𝐌𝐞𝐑𝐚 𝐎𝐰𝐧𝐞𝐫 𝐒𝐚𝐍𝐚𝐍 𝐊𝐡𝐚𝐍 𝐇𝐚𝐢𝐢🖤", threadID);
   };
   
   if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simi")) {
