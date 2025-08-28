@@ -748,8 +748,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     return api.sendMessage("Yes <3", threadID);
   };
 
-    if ((event.body.toLowerCase() == "Sanan") || (event.body.toLowerCase() == "does the bot love me")) {
-    return api.sendMessage("𝐊𝐢𝐚 𝐒𝐚𝐍𝐚𝐍 𝐒𝐚𝐍𝐚𝐍 𝐊𝐚𝐫𝐓𝐞 𝐇𝐮 𝐏𝐲𝐚𝐫 𝐓𝐮 𝐍𝐢𝐢 𝐇𝐮𝐰𝐚 𝐌𝐞𝐑𝐞 𝐉𝐚𝐍𝐰 𝐒𝐞 😐♥️ <3", threadID);
+    if ((event.body.toLowerCase() == "Sanan") || (event.body.toLowerCase() == "Sanan")) {
+    return api.sendMessage("𝐊𝐢𝐚 𝐒𝐚𝐍𝐚𝐍 𝐒𝐚𝐍𝐚𝐍 𝐊𝐚𝐫𝐓𝐞 𝐇𝐮 𝐏𝐲𝐚𝐫 𝐓𝐮 𝐍𝐢𝐢 𝐇𝐮𝐰𝐚 𝐌𝐞𝐑𝐞 𝐉𝐚𝐍𝐰 𝐒𝐞 😐♥️<3", threadID);
   };
   
   if ((event.body.toLowerCase() == "does the bot have a brand") || (event.body.toLowerCase() == "does the bot fall")) {
@@ -759,21 +759,17 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   mess = "{name}"
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = { 
-     body:`╭─❍❍❍❍❍❍❍❍❍❍❍❍─╮  
-     💖 :  
+     body:`╭──────╯🌙╰──────╮
      ✦ ${name} ✦  
-╰─❍❍❍❍❍❍❍❍❍❍❍❍─╯
+╰──────╮💫╭──────╯
 
-╔═════════ஓ๑♡๑ஓ═════════╗
- 💌:  
- ❝ ${rand} ❞  
-╚═════════ஓ๑♡๑ஓ═════════╝
+╔════════════════╗  
+ 💌: ❝ ${rand} ❞  
+╚════════════════╝
 
-🌷 ʏᴏᴜ'ʀᴇ ᴍʏ ʜᴇᴀʀᴛʙᴇᴀᴛ, ʙᴀʙʏ~ 💞  
-❣️ ꜱᴛᴀʏ ᴄᴜᴛᴇ, ꜱᴛᴀʏ ᴍɪɴᴇ 💘
-
-༄༚┋𝑴𝒂𝒅𝒆 𝒘𝒊𝒕𝒉 𝑳𝒐𝒗𝒆 𝒃𝒚 𝑺𝒂𝑵𝒂𝑵 𝑲𝒉𝒂𝑵 ┋༚༄`,
-
+╭────༺🖤༻────╮
+❝𝑴𝒂𝒅𝒆 𝒘𝒊𝒕𝒉 𝑳𝒐𝒗𝒆 𝒃𝒚 𝑺𝒂𝑵𝒂𝑵 𝑲𝒉𝒂𝑵❞
+╰────༺🖤༻────╯
     };
     return api.sendMessage(msg, threadID, messageID);
   };
