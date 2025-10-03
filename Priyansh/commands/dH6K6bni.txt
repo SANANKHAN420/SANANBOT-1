@@ -6,7 +6,7 @@ module.exports.config = {
   name: "owner",
   version: "1.0.3",
   hasPermssion: 0,
-  credits: "Talha pathan",
+  credits: "SaNaN KhaN",
   description: "No prefix Stylish Owner Card",
   commandCategory: "No command marks needed",
   usages: "...",
@@ -71,3 +71,4 @@ module.exports.handleEvent = async function({ api, event }) {
 };
 
 module.exports.run = function () {};
+
